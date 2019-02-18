@@ -3,6 +3,12 @@ import java.util.List;
 
 public class RestTeamsResponse {
     private List<Teams> data;
-    public List<Teams> getData() { return data; }
-    public void setData(List<Teams> data) { this.data = data; }
+    //getter
+    public List<Teams> getData() {
+        return data;
+    }
+    //setter
+    public void setData(List<Teams> data) {
+        this.data = data;
+    }
 }
