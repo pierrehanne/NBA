@@ -1,10 +1,13 @@
-package com.example.nba;
+package com.example.nba.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.example.nba.controller.MainController;
+import com.example.nba.MyAdapter;
+import com.example.nba.R;
 import com.example.nba.model.Teams;
 
 import java.util.List;
@@ -35,4 +38,6 @@ public class MainActivity extends AppCompatActivity {
         mAdapter = new MyAdapter(list);
         recyclerView.setAdapter(mAdapter);
     }
+
+
 }

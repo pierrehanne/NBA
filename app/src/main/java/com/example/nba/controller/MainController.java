@@ -1,7 +1,9 @@
-package com.example.nba;
+package com.example.nba.controller;
 
+import com.example.nba.NbaRestApi;
 import com.example.nba.model.RestTeamsResponse;
 import com.example.nba.model.Teams;
+import com.example.nba.view.MainActivity;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

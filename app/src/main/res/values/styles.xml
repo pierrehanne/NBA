@@ -8,4 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Loading" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
 </resources>
