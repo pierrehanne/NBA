@@ -11,29 +11,7 @@ public class MyAdapterImage extends BaseAdapter {
 
     private Context mContext;
 
-    public MyAdapterImage(Context c) {
-        mContext = c;
-    }
-    public int getCount() {
-        return thumbImages.length;
-    }
-    public Object getItem(int position) {
-        return null;
-    }
-    public long getItemId(int position) {
-        return 0;
-    }
-    // create a new ImageView for each item referenced by the Adapter
-    public View getView(int position, View convertView, ViewGroup parent) {
-        ImageView imageView = new ImageView(mContext);
-        imageView.setLayoutParams(new GridView.LayoutParams(250, 250));
-        imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageView.setPadding(5, 5, 5, 5);
-        imageView.setImageResource(thumbImages[position]);
-        return imageView;
-    }
-    // Add all our images to arraylist
-    private Integer[] thumbImages = {
+    private Integer[] logo = {
             R.drawable.logo1,R.drawable.logo4,
             R.drawable.logo5, R.drawable.logo6,
             R.drawable.logo7, R.drawable.logo8,
@@ -42,4 +20,29 @@ public class MyAdapterImage extends BaseAdapter {
             R.drawable.logo13, R.drawable.logo14,
             R.drawable.logo15, R.drawable.logo16,
     };
+
+    public MyAdapterImage(Context c) {
+        mContext = c;
+    }
+
+    public int getCount() {
+        return logo.length;
+    }
+
+    public Object getItem(int position) {
+        return null;
+    }
+
+    public long getItemId(int position) {
+        return 0;
+    }
+
+    public View getView(int position, View convertView, ViewGroup parent) {
+        ImageView imageView = new ImageView(mContext);
+        imageView.setLayoutParams(new GridView.LayoutParams(250, 250));
+        imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        imageView.setPadding(5, 5, 5, 5);
+        imageView.setImageResource(logo[position]);
+        return imageView;
+    }
 }
