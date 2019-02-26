@@ -7,10 +7,8 @@
         android:id="@+id/pBar"
         style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </ProgressBar>
+        android:layout_height="wrap_content"/>
 
-    <!-- A RecyclerView with some commonly used attributes -->
     <android.support.v7.widget.RecyclerView
         android:id="@+id/my_recycler_view"
         android:layout_width="match_parent"

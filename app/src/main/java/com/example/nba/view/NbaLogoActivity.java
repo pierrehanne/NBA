@@ -20,10 +20,5 @@ public class NbaLogoActivity extends AppCompatActivity {
 
         GridView gv = (GridView) findViewById(R.id.gridview);
         gv.setAdapter((ListAdapter) new MyAdapterImage(this));
-        gv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
-                Toast.makeText(NbaLogoActivity.this, "Image Position: " + position, Toast.LENGTH_SHORT).show();
-            }
-        });
     }
 }

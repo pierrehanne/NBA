@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/gridview"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:columnWidth="110dp"
-    android:numColumns="auto_fit"
-    android:verticalSpacing="10dp"
-    android:horizontalSpacing="10dp"
-    android:stretchMode="columnWidth"
-    android:gravity="center" />
+    tools:context=".view.NbaLogoActivity">
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:columnWidth="100dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="24dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="spacingWidthUniform"
+        />
+
+
+</RelativeLayout>
