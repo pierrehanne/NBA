@@ -26,7 +26,7 @@ public class MyAdapterImage extends BaseAdapter {
     // create a new ImageView for each item referenced by the Adapter
     public View getView(int position, View convertView, ViewGroup parent) {
         ImageView imageView = new ImageView(mContext);
-        imageView.setLayoutParams(new GridView.LayoutParams(400, 400));
+        imageView.setLayoutParams(new GridView.LayoutParams(250, 250));
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
         imageView.setPadding(5, 5, 5, 5);
         imageView.setImageResource(thumbImages[position]);
@@ -34,13 +34,12 @@ public class MyAdapterImage extends BaseAdapter {
     }
     // Add all our images to arraylist
     private Integer[] thumbImages = {
-            R.drawable.logo1, R.drawable.logo4,
+            R.drawable.logo1,R.drawable.logo4,
             R.drawable.logo5, R.drawable.logo6,
             R.drawable.logo7, R.drawable.logo8,
             R.drawable.logo9, R.drawable.logo10,
             R.drawable.logo11, R.drawable.logo12,
             R.drawable.logo13, R.drawable.logo14,
             R.drawable.logo15, R.drawable.logo16,
-            R.drawable.logo2, R.drawable.logo3,
     };
 }
