@@ -15,10 +15,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".view.NbaLogoActivity"></activity>
         <activity
             android:name=".view.PlayerListActivity"
             android:label="Players"
-            android:parentActivityName=".view.MenuActivity"/>
+            android:parentActivityName=".view.MenuActivity" />
         <activity
             android:name=".view.MenuActivity"
             android:label="MENU" />

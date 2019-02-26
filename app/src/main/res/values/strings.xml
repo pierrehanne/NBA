@@ -2,4 +2,5 @@
     <string name="app_name">NBA</string>
     <string name="nba_teams">NBA Teams</string>
     <string name="nba_players">NBA Players</string>
+    <string name="nba_logo">NBA Logo</string>
 </resources>
