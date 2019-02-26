@@ -1,31 +1,27 @@
 package com.example.nba.view;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.example.nba.controller.MainController;
-import com.example.nba.MyAdapter;
+import com.example.nba.controller.TeamController;
+import com.example.nba.MyAdapterTeams;
 import com.example.nba.R;
 import com.example.nba.model.Teams;
 
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity {
+public class TeamListActivity extends BaseListActivity {
 
-    private RecyclerView recyclerView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager layoutManager;
-    private MainController controller;
+    private TeamController controller;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_teams);
         recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
-        controller = new MainController(this);
+        controller = new TeamController(this);
         controller.onCreate();
     }
 
@@ -35,9 +31,7 @@ public class MainActivity extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         // define an adapter
-        mAdapter = new MyAdapter(list);
+        mAdapter = new MyAdapterTeams(list);
         recyclerView.setAdapter(mAdapter);
     }
-
-
 }
