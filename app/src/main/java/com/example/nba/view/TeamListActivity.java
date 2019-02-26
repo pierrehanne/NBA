@@ -11,7 +11,6 @@ import com.example.nba.model.Teams;
 
 import java.util.List;
 
-
 public class TeamListActivity extends BaseListActivity {
 
     private TeamController controller;
@@ -27,10 +26,8 @@ public class TeamListActivity extends BaseListActivity {
 
     public void showList(List<Teams> list){
         recyclerView.setHasFixedSize(true);
-        // use a linear layout manager
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        // define an adapter
         mAdapter = new MyAdapterTeams(list);
         recyclerView.setAdapter(mAdapter);
     }

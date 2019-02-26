@@ -17,7 +17,6 @@ public class NbaLogoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nba_logo);
-
         GridView gv = (GridView) findViewById(R.id.gridview);
         gv.setAdapter((ListAdapter) new MyAdapterImage(this));
     }

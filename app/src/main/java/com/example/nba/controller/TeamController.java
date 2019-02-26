@@ -23,7 +23,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 import static android.content.Context.MODE_PRIVATE;
 
-
 public class TeamController {
 
     private static final String PREFS = "PREFS";
@@ -31,7 +30,6 @@ public class TeamController {
     private static final String PREFS_STRING = "PREFS_STRING";
 
     private SharedPreferences sharedPreferences;
-
 
     private final TeamListActivity teamActivity;
     private static TeamController instance = null;

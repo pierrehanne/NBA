@@ -42,9 +42,11 @@ public class MyAdapterTeams extends RecyclerView.Adapter<MyAdapterTeams.ViewHold
         final String name = selectedTeams.getName();
         final String full_name = selectedTeams.getFull_name();
         holder.txtHeader.setText(name);
-        holder.txtFooter.setText("City : " + full_name);
+        holder.txtFooter.setText("Full Name  : " + full_name);
     }
 
     @Override
-    public int getItemCount() { return values.size(); }
+    public int getItemCount() {
+        return values.size();
+    }
 }

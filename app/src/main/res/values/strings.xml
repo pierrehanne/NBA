@@ -3,4 +3,7 @@
     <string name="nba_teams">NBA Teams</string>
     <string name="nba_players">NBA Players</string>
     <string name="nba_logo">NBA Logo</string>
+    <string name="all_star_game">All Star Game</string>
+    <string name="welcome_to_my_first_app">WELCOME TO MY FIRST APP</string>
+    <string name="pierre_hanne_esiea_student">Pierre Hanne - ESIEA Student</string>
 </resources>

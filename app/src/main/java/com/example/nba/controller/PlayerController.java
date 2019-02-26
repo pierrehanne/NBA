@@ -23,6 +23,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 import static android.content.Context.MODE_PRIVATE;
 
+
 public class PlayerController {
 
     private static final String PREFS = "PREFS";
@@ -30,7 +31,6 @@ public class PlayerController {
     private static final String PREFS_STRING = "PREFS_STRING";
 
     private SharedPreferences sharedPreferences;
-
 
     private final PlayerListActivity playerActivity;
     private static PlayerController instance = null;
@@ -84,7 +84,6 @@ public class PlayerController {
                     String result = sharedPreferences.getString(PREFS_STRING, "");
 
                     playerActivity.showList(playersList);
-
                 }
 
                 @Override
@@ -98,6 +97,5 @@ public class PlayerController {
             List<Players> list = gsonTest.fromJson(result, listType);
             playerActivity.showList(list);
         }
-
     }
 }
