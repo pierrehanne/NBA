@@ -3,9 +3,6 @@ package com.example.nba;
 public class YoutubeVideos {
     String videoUrl;
 
-    public YoutubeVideos() {
-    }
-
     public YoutubeVideos(String videoUrl) {
         this.videoUrl = videoUrl;
     }
