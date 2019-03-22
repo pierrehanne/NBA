@@ -25,14 +25,14 @@ Java,Retrofit
 
 - Architecture MVC </br>
 - Animation d'accueil, SplashScreen </br>
-- Menu avec 4 choix (joueurs NBA, équipes NBA, Logos NBA, vidéos Youtubes NBA) </br>
-- Utilisation de ListView et GridView </br>
+- Menu avec 3 choix (équipes NBA, Logos NBA, vidéos Youtubes NBA) </br>
+- Utilisation de ListView pour l'équipe NBA et d'une GridView pour les logos NBA </br>
 - Utilisation de RecyclerView </br>
 - Appel à un webService - APIRest avec Retrofit </br>
 - Stockage des données dans le cache avec SharedPreferences </br>
 - Gitflow </br>
 
-### <b><i>Bonus (pour ceux qui veulent continuer l'application)</i></b>
+### <b><i>Bonus (pour ceux qui aimeraient continuer mon application)</i></b>
 
 - Utilisation de Firebase (notification push) </br>
 - Bouton pour changer de vue passer d'une listView à une GridView </br>
