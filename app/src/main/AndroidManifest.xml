@@ -28,11 +28,6 @@
             android:parentActivityName=".view.MenuActivity" />
 
         <activity
-            android:name=".view.PlayerListActivity"
-            android:label="Players"
-            android:parentActivityName=".view.MenuActivity" />
-
-        <activity
             android:name=".view.MenuActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
 

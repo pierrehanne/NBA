@@ -19,10 +19,6 @@ public class MenuActivity extends AppCompatActivity {
         startActivity(new Intent(this, TeamListActivity.class));
     }
 
-    public void players (View view) {
-        startActivity(new Intent(this, PlayerListActivity.class));
-    }
-
     public void logo (View view) {
         startActivity(new Intent(this, NbaLogoActivity.class));
     }
