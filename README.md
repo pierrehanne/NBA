@@ -8,7 +8,7 @@ Cette application utilise une APIRest de : https://www.balldontlie.io/#introduct
 ### Pré-requis
 
 - Installer Android Studio </br>
-- Ouvrir le projet sur Android Studio
+- Ouvrir le projet sur Android Studio </br>
 ```
 git clone https://github.com/pierrehanne/NBA.git
 ```
@@ -28,9 +28,14 @@ Java,Retrofit
 - Menu avec 3 choix (équipes NBA, Logos NBA, vidéos Youtubes NBA) </br>
 - Utilisation de ListView pour l'équipe NBA et d'une GridView pour les logos NBA </br>
 - Utilisation de RecyclerView </br>
+- Listes de vidéos provenant de Youtube </br>
 - Appel à un webService - APIRest avec Retrofit </br>
 - Stockage des données dans le cache avec SharedPreferences </br>
 - Gitflow </br>
+
+### Captures d'écrans
+
+
 
 ### <b><i>Bonus (pour ceux qui aimeraient continuer mon application)</i></b>
 
